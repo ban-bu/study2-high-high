@@ -36,10 +36,10 @@ from svg_utils import convert_svg_to_png
 
 # 设置实验组合参数，可通过改变这些参数控制实验条件
 # 输入复杂度：LOW=1关键词，HIGH=5关键词
-INPUT_COMPLEXITY = "LOW"  # 可选值: "LOW" 或 "HIGH"
+INPUT_COMPLEXITY = "HIGH"  # 可选值: "LOW" 或 "HIGH"
 
 # 推荐复杂度：LOW=1个设计，HIGH=3个设计
-RECOMMENDATION_COMPLEXITY = "LOW"  # 可选值: "LOW" 或 "HIGH"
+RECOMMENDATION_COMPLEXITY = "HIGH"  # 可选值: "LOW" 或 "HIGH"
 
 # 根据输入复杂度设置关键词数量
 def get_keyword_count():
