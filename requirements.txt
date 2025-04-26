@@ -1,0 +1,17 @@
+streamlit==1.43.2
+streamlit-drawable-canvas==0.9.3
+openai==1.66.3
+requests==2.32.3
+Pillow==11.1.0
+# 移除cairosvg，它在某些环境中可能会安装失败
+# cairosvg==2.7.1
+numpy==2.2.3
+streamlit-image-coordinates==0.2.0
+opencv-python-headless
+# 添加其他必要依赖
+python-dotenv
+# 添加备选SVG处理库
+svglib
+reportlab
+freetype-py
+cairosvg
